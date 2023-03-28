@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(41, 39, 39);
+    color: aqua;
+}
+
+input,textarea{
+    display: block;
+    margin-bottom: 20px;
+}
+
+header{
+    text-align: center;
+    padding: 30px 0;
+}
+
+h3{
+    font-size: 30px;
+}
+h5{
+    font-size: 20px;
+}
+
+hr{
+    border-color: aqua;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+label{
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+input[type="text"], input[type="email"],textarea, input[type="password"]{
+    padding: 15px 45px;
+    width: 100%;
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+textarea{
+    padding: 15px 45px;
+}
+
+input[type="submit"]{
+    padding: 15px 30px;
+    background-color: inherit;
+    border: 1px solid white;
+    color: white;
+    transition: ease-in .2s;
+    text-align: center;
+    width: 100%;
+    border-radius: 4px;
+}
+input[type="submit"]:hover {
+    background-color: aqua;
+
+}
+
+::placeholder{
+    color: white;
+}
+
+form{
+    border: 1px solid aqua;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container a{
+    position: absolute;
+    bottom: 15;
+    color: white;
+}
+
+.container a:hover{
+    color: aqua;
+}
