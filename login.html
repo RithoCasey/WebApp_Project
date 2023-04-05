@@ -13,7 +13,7 @@
     </header>
     <section class="section-one">
         <div class="container">
-            <form action="index.html">
+            <form action="index.html" name="login-form" onsubmit="return validateLogin()">
                 <label for="username">Username</label>
                 <input type="text" name="username" id="username" placeholder="Username">
 
@@ -26,5 +26,6 @@
         </div>
         
     </section>
+    <script src="./js/validation.js"></script>
 </body>
 </html>
